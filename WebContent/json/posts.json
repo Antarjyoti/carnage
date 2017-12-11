@@ -1,0 +1,28 @@
+[
+
+	{"title":"New Title", "id": 1, "description":"This is book",
+							"comments": [
+							{"id": 1, "text":"Nice book"},
+								{"id": 2, "text":"Another comment"}],
+								"image":"js/img/soap.jpg",
+						"publishdate":"29/01/1993"},
+	{"title":" Title", "id": 2, "description":"This is book","image":"js/img/soap.jpg","publishdate":"29/01/1994"},
+	{"title":"Tea", "id": 3, "description":"This is book","image":"js/img/soap.jpg","publishdate":"29/01/1995"},
+	{"title":"Lite1", "id": 4, "description":"This is book","image":"js/img/soap.jpg","publishdate":"30/01/1996"},
+	{"title":"Lite2", "id": 5, "description":"This is book","image":"js/img/soap.jpg","publishdate":"29/01/1997"},
+	{"title":"Lite3", "id": 6, "description":"This is book","image":"js/img/soap.jpg","publishdate":"29/01/1998"},
+	{"title":"Lite4", "id": 7, "description":"This is book","image":"js/img/soap.jpg","publishdate":"29/01/2021"},
+	{"title":"Lite5", "id": 8, "description":"This is book","image":"js/img/soap.jpg","publishdate":"29/01/2012"},
+	{"title":" Title1", "id": 9, "description":"This is book","image":"js/img/soap.jpg","publishdate":"29/01/2017"},
+	{"title":"Tea1", "id": 10, "description":"This is book","image":"js/img/soap.jpg","publishdate":"29/01/2000"},
+	{"title":"Lite6", "id": 11, "description":"This is book","image":"js/img/soap.jpg","publishdate":"29/01/2001"},
+	{"title":"Lite7", "id": 12, "description":"This is book","image":"js/img/soap.jpg","publishdate":"29/01/2002"},
+	{"title":"Lite8", "id": 13, "description":"This is book","image":"js/img/soap.jpg","publishdate":"29/01/2003"},
+	{"title":"Lite9", "id": 14, "description":"This is book","comments": [
+							{}],"image":"js/img/soap.jpg","publishdate":"29/01/2004"},
+	{"title":"Lite10", "id": 15, "description":"This is book","image":"js/img/soap.jpg","publishdate":"31/01/2005"},
+	{"title":"New Title1", "id": 16, "description":"This is book",
+							"comments": [
+							{"id": 1, "text":"Nice book1"},
+								{"id": 2, "text":"Another comment1"}],"image":"js/img/soap.jpg","publishdate":"31/01/2006"}
+]

@@ -1,0 +1,71 @@
+<html ng-app="try">
+<head>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-resource.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js"></script>
+
+<script src="js/external/dirPagination.js"></script>
+<script src="js/app/app.module.js"></script>
+<script src="js/app/app.config.js"></script>
+<script src="js/app/blogList/blog-list.module.js"></script>
+<script src="js/app/blogList/blog-list.component.js"></script>
+
+
+
+
+<script src="js/app/core/post/post.module.js"></script>
+<script src="js/app/core/post/post.service.js"></script>
+
+<script src="js/app/blogDetail/blog-detail.module.js"></script>
+<script src="js/app/blogDetail/blog-detail.component.js"></script>
+
+<script src="js/app/utils/confirm-click/confirm-click.module.js"></script>
+<script src="js/app/utils/confirm-click/confirm-click.directive.js"></script>
+
+
+<script src="js/app/utils/try-nav/try-nav.module.js"></script>
+<script src="js/app/utils/try-nav/try-nav.directive.js"></script>
+
+
+<style>
+.new-class{
+font-size: 72px;
+}
+.other-class{
+font-size:{{ font }};
+color:red
+}
+</head>
+</style>
+<body>
+
+<!--  <h1 class="new-class" ng-class="{'other-class':name}">Hello,
+
+	<span ng-if="name"> {{ name }} </span>
+	<span ng-if="!name"> World </span>
+
+
+
+!
+</h1>
+
+<input type="text" ng-model="name" />
+<input type="text" ng-model="font" />-->
+
+
+<div class="container">
+<try-nav></try-nav>
+<div class="col-sm-12" ng-view>
+	<try-nav></try-nav>
+</div>
+</div>
+</body>
+</html>
+
